@@ -1,0 +1,150 @@
+
+
+.zz{
+margin: 2rem auto;
+border: 4px solid rgb(119, 28, 204);
+padding: 4rem 2rem;
+border-radius: 1rem;
+box-shadow: 0 10px 25px rgba(173, 0, 0, 0.616);
+width: 400px;
+height:290px;
+transition: width 0.5s, height 0.5s;
+float: center;
+
+}
+.zz:hover {
+    width: 500px;
+    height: 300px;
+
+}
+
+label           {
+Display: block;
+padding: .7rem 0;
+text-transform: uppercase   ;                
+border:#000000c5;
+
+
+}
+
+
+body            {
+    background-image: url(/back/istockphoto-1170930446-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Convergence", sans-serif;
+    height: 200vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0;
+    margin-left: 0;
+    background-color: #DFCFBE ;
+
+                }
+
+
+
+/*#sendbtn{
+
+border: 300px;
+background: #b30000 ;
+width: 100%;
+padding: 0.7rem;
+color: aliceblue;
+background-color: blueviolet;
+cursor: pointer;
+text-transform:uppercase;
+
+
+}*/
+#sendbtn:hover{
+
+background: #48bcffc5;
+
+
+}
+#sendbtn {
+    color: #ffffff !important;
+    background-color:rgb(0, 133, 138);
+    border: 0px;
+    box-shadow: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: .6rem;
+    width: 100%;
+    margin: 2rem 0  ;
+    transition: .6s background ease;
+    font-size: 80%;
+    font-weight:bolder;
+
+
+
+}
+input{
+
+padding: .5rem 0;
+width: 100%;
+display: block;
+border: solid rgb(175, 92, 154);
+border-radius: 5px;
+font-size:15px;
+font: bold;
+outline: none;
+box-sizing: border-box;
+
+}
+
+
+
+.lol{
+    border: 0px black solid ;
+    transition: 0.5s;
+    width: 350px;
+    padding: 1rem 0rem;
+    margin: 2rem 31rem;
+    justify-content: center;
+    align-items: center ;
+    font-size: 4.2em;
+    line-height: 1;
+    font-weight: 500;
+    color: transparent ;
+    background-image:linear-gradient(to left,#2ecc71,#0077c7,#9b59b6,#f39c12);
+    -webkit-background-clip: text;
+    animation:animate 7s linear infinite;
+    -webkit-background-size:500%;
+       background-size:500%;
+       cursor: pointer;
+}
+
+/*.lol:hover{
+
+color: aqua;
+
+cursor: pointer;
+
+}*/
+@keyframes animate{
+    0%{
+        background-position:0 100%;
+   }
+    50%{
+   
+        background-position:100% 0;
+   }
+    100%{
+        background-position:0 100%;
+    }
+}
+
+
+#erreur{
+
+color: red;
+font-size: 16px;
+letter-spacing: 1px;
+
+display: none;
+}
